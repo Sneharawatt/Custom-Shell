@@ -1,0 +1,100 @@
+###### LINUX ######
+
+File Management:
+ 
+ls: Lists files and directories in the current directory.
+cd: Changes the current working directory.
+pwd: Prints the full path of the current working directory.
+mkdir: Creates a new directory.
+rm: Removes files or directories.
+cp: Copies files or directories.
+mv: Moves or renames files or directories.
+touch: Creates an empty file or updates the timestamp of an existing file.
+
+Text Processing:
+ 
+cat: Concatenates and prints the contents of a file.
+grep: Searches for a pattern in a file.
+sort: Sorts the lines of a text file.
+head: Displays the first few lines of a file.
+tail: Displays the last few lines of a file.
+System Monitoring: 
+top: Displays a dynamic view of the system's processes.
+ps: Lists the currently running processes.
+df: Displays the disk space usage.
+Permissions and Ownership: 
+chmod: Changes the permissions of a file or directory.
+chown: Changes the owner of a file or directory.
+chgrp: Changes the group ownership of a file or directory.
+
+Networking:
+ 
+ping: Tests the connectivity to a network host.
+wget: Downloads files from the web.
+curl: Transfers data with URLs.
+ssh: Securely connects to a remote server.
+scp: Securely copies files between servers.
+ftp: Uses the File Transfer Protocol.
+
+Other useful commands:
+ 
+history: Displays the command history.
+sudo: Executes a command with administrative privileges.
+man: Displays the manual page for a command.
+help: Provides information on a command.
+exit: Exits the shell.
+
+
+
+###### WINDOWS ######
+
+dir: View the contents of a directory
+cd: Change the current working directory
+mkdir: Create a new directory
+ren: Rename a file
+del: Delete a file
+exit: Close the Command Prompt
+cls: Clear the Command Prompt screen
+time: Display or set the system time
+sfc: System File Checker – Scans and repairs system files
+chkdsk: Check Disk – Scans and fixes disk errors
+tasklist: View running processes
+systeminfo: Display detailed system information, including OS version, installed memory, and processor
+rmdir: Delete a directory (folder)
+
+###### MacOS ######
+
+cd: Change the current directory. For example, cd /Users/yourusername/Documents will navigate to your Documents folder.
+ls: List files and directories in the current directory. Options like ls -l provide a detailed listing, and ls -a shows hidden files.
+mkdir: Create a new directory. For instance, mkdir NewFolder will create a directory named "NewFolder".
+rmdir: Remove an empty directory. To remove a directory with contents, you might need to use rm -r.
+cp: Copy files or directories. For example, cp file.txt /Users/yourusername/Destination copies the file to the destination.
+mv: Move or rename files or directories. mv file.txt NewName.txt renames the file, and mv file.txt /Users/yourusername/Destination moves it.
+rm: Remove files or directories. Use with caution! For example, rm file.txt removes the file. 
+
+File Content & Access:
+ 
+cat: Display the content of a file. cat file.txt shows the contents of the file. 
+head: Display the first few lines of a file. head -n 5 file.txt shows the first 5 lines. 
+tail: Display the last few lines of a file. tail -n 5 file.txt shows the last 5 lines. 
+grep: Search for a pattern within a file. grep "keyword" file.txt searches for "keyword" in the file. 
+chmod: Change file permissions. chmod +x file.txt makes the file executable. 
+chown: Change file ownership. chown user:group file.txt changes the user and group ownership. 
+open: Open a file or application. open file.txt opens the file, and open -a TextEdit.app opens TextEdit. 
+touch: Create an empty file or update a file's timestamp. touch newfile.txt creates a new file. 
+
+
+Advanced & System Tools:
+
+
+brew: The Homebrew package manager for installing software. You'll typically need to install it first. 
+sudo: Run a command with administrator privileges. sudo command requires you to enter your password. 
+find: Search for files based on various criteria. find / -name "filename" searches for a file named "filename". 
+df: Display disk space usage. df -h displays the disk space in a human-readable format. 
+uptime: Show the system's uptime. uptime displays how long the system has been running. 
+ps: List running processes. ps aux shows all users and their processes. 
+kill: Terminate a process. kill <process_id> terminates a process with the specified ID. 
+history: Display your command history. 
+man: View the manual page for a command. man ls displays the manual for the ls command. 
+shutdown: Shutdown the system. sudo shutdown -h now shuts down the system immediately. 
+caffeinate: Prevent the Mac from going to sleep. caffeinate keeps the system awake. 
